@@ -1,11 +1,47 @@
-def add(x,y):
-    return x+y
+def add(x, y):
+    """Function to add two numbers.
 
-def subtract(x,y):
-    return x-y
+    Parameters:
+    x (int): The first number.
+    y (int): The second number.
 
-def multiply(x,y):
-    return x*y
+    Returns:
+    int: The sum of the two numbers.
+    """
+    return x + y
 
-def divide(x,y):
-    return x/y
+def subtract(x, y):
+    """Function to subtract one number from another.
+
+    Parameters:
+    x (int): The first number.
+    y (int): The number to subtract from the first number.
+
+    Returns:
+    int: The difference between the first and second numbers.
+    """
+    return x - y
+
+def multiply(x, y):
+    """Function to multiply two numbers.
+
+    Parameters:
+    x (int): The first number.
+    y (int): The second number.
+
+    Returns:
+    int: The product of the two numbers.
+    """
+    return x * y
+
+def divide(x, y):
+    """Function to divide one number by another.
+
+    Parameters:
+    x (int): The dividend.
+    y (int): The divisor.
+
+    Returns:
+    float: The result of dividing the dividend by the divisor.
+    """
+    return x / y
