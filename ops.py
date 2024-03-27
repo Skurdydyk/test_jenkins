@@ -4,6 +4,7 @@ This module provides basic arithmetic operations such as addition, subtraction,
 multiplication, and division.
 """
 
+
 def add(x, y):
     """Function to add two numbers.
 
@@ -15,6 +16,7 @@ def add(x, y):
     int: The sum of the two numbers.
     """
     return x + y
+
 
 def subtract(x, y):
     """Function to subtract one number from another.
@@ -28,6 +30,7 @@ def subtract(x, y):
     """
     return x - y
 
+
 def multiply(x, y):
     """Function to multiply two numbers.
 
@@ -39,6 +42,7 @@ def multiply(x, y):
     int: The product of the two numbers.
     """
     return x * y
+
 
 def divide(x, y):
     """Function to divide one number by another.
