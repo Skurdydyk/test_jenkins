@@ -1,3 +1,9 @@
+"""Operations Module
+
+This module provides basic arithmetic operations such as addition, subtraction,
+multiplication, and division.
+"""
+
 def add(x, y):
     """Function to add two numbers.
 
